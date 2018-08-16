@@ -1,0 +1,34 @@
+== Step 1: Create a database named btstest and a table name user, and insert some items ==
+
+create database btstest;
+
+use btstest;
+
+CREATE TABLE `user` (
+  `id` int(8) AUTO_INCREMENT,
+  `name` varchar(20),
+  PRIMARY KEY (`id`)
+);
+
+insert into user (name) values ('tom');
+
+select * from user;
++----+------+
+| id | name |
++----+------+
+|  1 | tom  |
++----+------+
+
+desc user;
++-------+-------------+------+-----+---------+----------------+
+| Field | Type        | Null | Key | Default | Extra          |
++-------+-------------+------+-----+---------+----------------+
+| id    | int(8)      | NO   | PRI | NULL    | auto_increment |
+| name  | varchar(20) | YES  |     | NULL    |                |
++-------+-------------+------+-----+---------+----------------+
+
+
+== Step 2: run the application ==
+
+== Step 3: visit  http://localhost:8080/user/1 ==
+
