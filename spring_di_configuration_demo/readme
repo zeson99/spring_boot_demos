@@ -1,0 +1,11 @@
+This is a demo for spring dependency injection configuration:
+-xml configuration
+-java configuration
+-auto scan configuration
+
+Demo output:
+human is eating apple
+human is eating apple
+tiger is eating goat
+ocean:The Pacific Ocean
+
