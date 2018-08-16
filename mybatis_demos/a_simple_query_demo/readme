@@ -1,3 +1,5 @@
+This is a demo for mybatis with mysql.
+
 == Step 1: Create a database named btstest and a table name user, and insert some items ==
 
 create database btstest;
@@ -27,8 +29,9 @@ desc user;
 | name  | varchar(20) | YES  |     | NULL    |                |
 +-------+-------------+------+-----+---------+----------------+
 
+== Step 2: update database username and password in file [application.properties] ==
 
-== Step 2: run the application ==
+== Step 3: run the application ==
 
-== Step 3: visit  http://localhost:8080/user/1 ==
+== Step 4: visit  http://localhost:8080/user/1 ==
 
